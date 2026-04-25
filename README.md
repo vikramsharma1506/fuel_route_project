@@ -8,7 +8,7 @@ A Django REST API that calculates the **optimal fuel stops** along a driving rou
 
 Given a **start** and **finish** location anywhere in the USA, the API:
 
-1. Converts both locations to GPS coordinates (local lookup — no API call)
+1. Converts both locations to GPS coordinates.
 2. Gets the full driving route with **one single API call**
 3. Scans **8,151 real fuel stations** from the provided dataset
 4. Finds the **cheapest station** every 450 miles along the route
